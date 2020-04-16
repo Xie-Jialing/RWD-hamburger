@@ -1,0 +1,191 @@
+.features .title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 31px;
+    font-size: 20px;
+}
+.features-card{
+    display:flex;
+    justify-content:space-around;
+    color: #481f10;
+    padding-bottom: 100px;
+}
+.vegetables,.profession,.saying{
+    width: 33%;
+}
+.features-card img{
+    border-radius:50%;
+    display:inline-block;
+    padding:0 20%;
+}
+.features-card h2{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+}
+.chef{
+    background:#3D1101;
+    color: #ffffff;
+    display:flex;
+    align-items:center;
+}
+.chef img{
+    padding-left: 5%;
+    height: 460px;
+}
+.text{
+    margin: 0 5%;
+}
+.text h2{
+    font-size: 20px;
+}
+.text h3{
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.main{
+    background: #dfd7d5;
+    padding-bottom: 50px;
+}
+.main h2{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 32px;
+}
+.people{
+    display:flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+.people-1,.people-2,.people-3{
+    width: 30%;
+}
+.people-1 img,.people-2 img,.people-3 img{
+    vertical-align: center;
+    border-radius:50%;
+}
+.bottom{
+    text-align: right;
+    padding-top: 16px;
+}
+.map {
+    padding-bottom: 50px;
+    color: #3d1101;
+}
+.map h2{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.map-1{
+    display:flex;
+}
+.map-1 img{
+    padding-right: 40px;
+} 
+.map-1 p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.map-1 .map-2{
+    width: 460px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.map-1 .no,.yes{
+    width: 70px;
+    padding:6px 0;
+    margin-top: 20px;
+}
+.map-1 .no{
+    margin-left: 300px;
+    background:#a09e9e;
+    color: #ffffff;
+}
+.map-1 .yes{
+    background:#f56c23;
+    color: #ffffff;
+}
+@media (max-width:800px){
+    .features-card{
+        max-width: 768px;
+        margin: 0 10px;
+    }
+    .features-card img{
+        padding: 0 10%;
+    }
+    .chef img{
+        max-width:373px;
+    }
+    .text{
+        margin: 0 2%;
+    }
+    .map img{
+        margin-left: 10px;
+    }
+}
+@media(max-width:500px){
+    .vegetables,.profession,.saying{
+        width: 90%;
+    }
+    .vegetables img,.profession img,.saying img{
+        padding: 0 25%;
+    }
+    .features-card{
+        display:block;
+    }
+    .vegetables p,.profession p,.saying p{
+        padding-bottom:30px;
+        padding-left: 50px;
+    }
+    .chef{
+        max-width:500px;
+        display:block;
+    }
+    .chef img{
+        max-width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .text{
+        margin: 10px 10%;
+        padding-bottom: 30px;
+    }
+    .people{
+        display:block;
+    }
+    .people-1,.people-2,.people-3{
+        width: 100%;
+    }
+    .map{
+        max-width: 100%;
+    }
+    .map img{
+        max-width: 95%;
+        margin-left:10px;
+    }
+    .map-1{
+        display: block;
+        max-width:90%;
+        margin: 0;
+        padding: 0;
+    }
+    .map-1 .map-2{
+        max-width: 90%;
+        height: 20px;
+        border: 0;
+        margin: 0;
+        padding: 10px;
+        font-size: 12px;
+    }
+   .map-1 .no{
+       margin: 0;
+   }
+   form{
+       max-width:100%;
+   }
+}

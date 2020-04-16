@@ -1,0 +1,145 @@
+.content{
+    max-width:100%;
+    margin: 50px 0;
+    position: relative;
+}
+.menu-bar{
+    float:left;
+    max-width:30%;
+    margin: 0 50px;
+}
+.menu-bar h1{
+    font-size: 20px;
+}
+.menu-bar h1 .fa-leaf{
+    padding-right: 4px;
+}
+.menu-bar ul li{
+    padding: 10px 20px;
+    border-bottom:2px solid #3D1101;
+}
+.menu-bar ul li:hover{
+    background:#3D1101;
+}
+.menu-bar ul li a{
+    color: #3d1101;
+    display:block;
+}
+.menu-bar ul li a:hover{
+    color: #ffffff;
+}
+.content-right{
+    float: left;
+    max-width:70%;
+}
+.content-right a{
+    color: #3d1101;
+}
+.content-right input{
+    width:400px;
+    margin-left: 40px;
+    height: 22px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.content-right .fa-search{
+    font-size: 19px;
+    margin-right: 120px;
+}
+.content-right .sell{
+    border-right:3px solid #3D1101;
+    padding-right: 10px;
+}
+.content-right .fa-shopping-cart{
+    padding-left: 10px;
+}
+.content-right .search{
+    float:left;
+}
+.content-right .search-link{
+    float:left;
+}
+.box1,.box2,.box3,.box4{
+    max-width:20%;
+    float:left;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    box-shadow: 1em 1em 1em gray;
+    padding-bottom: 20px;
+}
+.box1 img,.box2 img,.box3 img,.box4 img{
+    height: 120px;
+}
+.box1 h1,.box2 h1,.box3 h1,.box4 h1{
+    padding-top:10px;
+    text-align: center;
+    font-size: 20px;
+}
+.box1 h3,.box2 h3,.box3 h3,.box4 h3{
+    text-align: center;
+    font-size: 12px;
+}
+.box1 .spen,.box2 .spen,.box3 .spen,.box4 .spen{
+    font-size: 20px;
+    padding-top: 21px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+.box1 .button,.box2 .button,.box3 .button,.box4 .button{
+    border:2px solid orange;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:block;
+    padding: 10px 20px;
+    color:orange;
+    text-align: center;
+}
+.box1 .button:hover,.box2 .button:hover,.box3 .button:hover,.box4 .button:hover{
+    background: orange;
+    color: #ffffff;
+}
+@media (max-width:768px){
+    .menu-bar{
+        max-width:30%;
+        margin: 0 5px;
+    }
+    .content-right{
+        max-width:70%;
+    }
+    .content-right input{
+        width: 300px;
+    }
+    .content-right .fa-search{
+        margin: 0;
+    }
+    .content-right .box1,.box2,.box3,.box4{
+       max-width:40%;
+    }
+
+}
+@media (max-width:500px){
+    .menu-bar{
+        float:none;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .content-right{
+        float:none;
+        max-width:100%;
+    }
+    .content-right .search-link{
+        position: absolute;
+        right: 10px;
+        top: 260px;
+    }
+    .content-right .box1,.box2,.box3,.box4{
+        float:none;
+        max-width: 100%;
+        box-shadow:0 0 1em gray;
+        margin-right: 20px;
+    }
+    .content-right .box1{
+        margin-top:40px;
+    }
+}

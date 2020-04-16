@@ -1,0 +1,59 @@
+.content{
+    max-width:100%;
+    color: #3d1101;
+    padding-bottom: 100px;
+}
+.content h1{
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 50px;
+    text-align: center;
+}
+.content h3{
+    font-size: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.content form{
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 1em 1em 1em gray;
+    padding-bottom: 40px;
+    border-top:5px solid orange;
+}
+.content form h2{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+}
+.content form input{
+    width: 270px;
+    height: 32px;
+    font-size: 20px;
+}
+.content form a{
+    color: orange;
+    font-weight: bolder;
+}
+.content form .email{
+    margin-bottom: 15px;
+}
+.content form .send{
+    margin-top: 30px;
+}
+.content form .send input{
+    max-width:125px;
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 5px;
+    border:0;
+}
+.content form .send .sing{
+    background:gray;
+    color: #ffffff;
+}
+.content form .send .login{
+    background:orange;
+    color: #ffffff;
+}

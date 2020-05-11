@@ -163,7 +163,7 @@ a{
         max-height:500px;
     }
 }
-@media (max-width:500px){
+@media (max-width:767px){
     
     .footer{
         display:block;

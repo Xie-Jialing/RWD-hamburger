@@ -118,7 +118,7 @@
     }
 
 }
-@media (max-width:500px){
+@media (max-width:767px){
     .menu-bar{
         float:none;
         max-width: 100%;
